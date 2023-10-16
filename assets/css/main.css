@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 60px 0;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sec-one-right-content .sec-one-right-content-cards {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.sec-one-right-content .sec-one-right-content-cards .sec-one-card {
+  display: flex;
+  align-items: center;
+}
+.sec-one-right-content .sec-one-right-content-cards .sec-one-card i {
+  font-size: 45px;
+}
+.sec-one-right-content .sec-one-right-content-cards .sec-one-card .sec-one-card-txt p {
+  color: #212025;
+  font-size: 14px;
+  line-height: 1.7;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 185px;
+  padding-left: 20px;
+}
+
+.sec-one-right-content-txt {
+  width: 570px;
+  margin: 20px 0;
+}
+.sec-one-right-content-txt h4 {
+  color: #ff5600;
+  margin-bottom: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 0;
+}
+.sec-one-right-content-txt h2 {
+  color: #212025;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 49px;
+  margin-bottom: 20px;
+}
+.sec-one-right-content-txt p {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #000;
+}
+
+.sec-one-img {
+  width: 400px;
+}
+.sec-one-img img {
+  width: 100%;
+}
+
+.sec-two .sec-two-right-txt {
+  width: 570px;
+}
+.sec-two .sec-two-right-txt h4 {
+  color: #ff5600;
+  margin-bottom: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 0;
+}
+.sec-two .sec-two-right-txt h2 {
+  color: #212025;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 49px;
+  margin-bottom: 20px;
+}
+.sec-two .sec-two-right-txt p {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #000;
+  margin-bottom: 20px;
+}
+.sec-two .sec-two-right-txt button {
+  padding: 20px 50px;
+  color: #464d65;
+  border: 1px solid #ff5600;
+}
+
+@media screen and (min-width: 0) and (max-width: 1000px) {
+  .container {
+    width: 90%;
+    display: block;
+    text-align: center;
+  }
+  .container .sec-one-right-content-txt {
+    width: 90%;
+  }
+  .sec-one-left-content img {
+    margin-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .sec-two-left-content img {
+    width: 90%;
+  }
+  .sec-two .sec-two-right-txt {
+    width: 90%;
+  }
+  .sec-two-left-content h2, h4, p {
+    width: 80%;
+  }
+}
